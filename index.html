@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search for a city">
+            <button>🔍</button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in ...</h2>
+            <div class="temp">--°C</div>
+            <div class="flex">
+                <img src="" alt="Weather Icon" class="icon" />
+                <div class="description">...</div>
+            </div>
+            <div class="humidity">Humidity: --%</div>
+            <div class="wind">Wind Speed: -- km/h</div>
+        </div>
+        <div class="forecast"></div>
+    </div>
+</body>
+</html>
